@@ -15,10 +15,12 @@ function App() {
     <div className="App">
       <button onClick={()=> setCheck(!check)}>PUSH ME</button>
       {
-        check ? <Check /> : null 
+        check ? <Check /> : null
       }
     </div>
   );
 }
 
 export default App;
+
+// My component is rendering two times I wonder why
